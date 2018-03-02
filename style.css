@@ -24,7 +24,67 @@ nav{
   position: relative;
   top: 50%;
   transform:translateY(-50%);
+  padding: 0;
 }
 #menubar span{
   padding: 0 5px;
+}
+#menubar #last{
+  padding-right: 0;
+}
+
+/* FIRST BLOCK */
+.firstblock{
+  height: 700px;
+}
+#firstrow{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#bigdescr{
+  font-size: 50px;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 200;
+}
+#bigdescr button{
+  font-size: 11px;
+  padding: 15px 45px;
+  border-radius: 300px;
+  border: 1px solid white;
+  background-color: transparent;
+  outline: none;
+}
+#modeltel{
+  padding-right: 5%;
+}
+#iphone{
+  position: relative;
+}
+#device{
+  width: 100%;
+}
+#screen{
+  width: 88%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+
+/* MEDIAQUERIES */
+@media (max-width: 992px){
+  #bigdescr{
+    text-align: center;
+    font-size: 30px;
+  }
+  #bigdescr button{
+    margin-top: 25px;
+  }
+  #modeltel{
+    margin-top: 50px;
+    padding: 0;
+  }
 }
