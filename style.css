@@ -1,0 +1,30 @@
+#cubebackgr{
+  background-size: contain;
+  background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+}
+/* NAV */
+nav{
+  height: 50px;
+}
+#start{
+  color: #fdcc52;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  transform:translateY(-50%);
+}
+#menubar{
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: white;
+  position: relative;
+  top: 50%;
+  transform:translateY(-50%);
+}
+#menubar span{
+  padding: 0 5px;
+}
