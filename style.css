@@ -192,9 +192,11 @@ footer .footersinfo{
 }
 /* MEDIAQUERIES */
 @media (max-width: 992px){
+  #menubar{
+    display: none;
+  }
   #bigdescr{
     text-align: center;
-    font-size: 30px;
   }
   #bigdescr button{
     margin-top: 25px;
@@ -213,5 +215,14 @@ footer .footersinfo{
   .img-responsive.applestore{
     width: 200px;
     display: inline-block;
+  }
+}
+@media (max-width: 768px){
+  #bigdescr{
+    text-align: center;
+    font-size: 30px;
+  }
+  .yellowbackgr h1{
+    font-size: 35px;
   }
 }
